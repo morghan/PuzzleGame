@@ -1,0 +1,171 @@
+# depslib dependency file v1.0
+1321558721 source:/home/userr/ProyectosActuales/Gemas/main.cpp
+	<iostream>
+	"include/Menu.h"
+
+1320696586 source:/home/userr/ProyectosActuales/Gemas/src/Grafico.cpp
+	"../include/Grafico.h"
+
+1321553052 /home/userr/ProyectosActuales/Gemas/include/Grafico.h
+	<stdlib.h>
+	<irrlicht/irrlicht.h>
+	"../include/Input.h"
+
+1321552894 /home/userr/ProyectosActuales/Gemas/include/Input.h
+	<iostream>
+	<fstream>
+	<vector>
+	<stdarg.h>
+	<irrlicht/irrlicht.h>
+	"../TinyXml/tinyxml.h"
+
+1317581644 /home/userr/ProyectosActuales/Gemas/TinyXml/tinyxml.h
+	<ctype.h>
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<assert.h>
+	<string>
+	<iostream>
+	<sstream>
+	"tinystr.h"
+
+1317579397 /home/userr/ProyectosActuales/Gemas/TinyXml/tinystr.h
+	<assert.h>
+	<string.h>
+
+1321552986 source:/home/userr/ProyectosActuales/Gemas/src/Input.cpp
+	"../include/Input.h"
+
+1314405313 source:/home/userr/ProyectosActuales/Gemas/src/Sonido.cpp
+	"../include/Sonido.h"
+
+1314411052 /home/userr/ProyectosActuales/Gemas/include/Sonido.h
+	"../include/irrKlang/irrKlang.h"
+	<irrlicht/irrlicht.h>
+	<string>
+	<vector>
+
+1314405313 /home/userr/ProyectosActuales/Gemas/include/irrKlang/irrKlang.h
+	"ik_irrKlangTypes.h"
+	"ik_vec3d.h"
+	"ik_IRefCounted.h"
+	"ik_IVirtualRefCounted.h"
+	"ik_ESoundOutputDrivers.h"
+	"ik_ESoundEngineOptions.h"
+	"ik_EStreamModes.h"
+	"ik_SAudioStreamFormat.h"
+	"ik_ISoundEngine.h"
+	"ik_ISoundSource.h"
+	"ik_ISound.h"
+	"ik_IAudioStream.h"
+	"ik_IAudioStreamLoader.h"
+	"ik_ISoundEffectControl.h"
+	"ik_ISoundStopEventReceiver.h"
+	"ik_IFileFactory.h"
+	"ik_IFileReader.h"
+	"ik_ISoundDeviceList.h"
+	"ik_IAudioRecorder.h"
+	"ik_ISoundMixedOutputReceiver.h"
+
+1314405313 /home/userr/ProyectosActuales/Gemas/include/irrKlang/ik_irrKlangTypes.h
+
+1314405313 /home/userr/ProyectosActuales/Gemas/include/irrKlang/ik_vec3d.h
+	<math.h>
+	"ik_irrKlangTypes.h"
+
+1314405313 /home/userr/ProyectosActuales/Gemas/include/irrKlang/ik_IRefCounted.h
+	"ik_irrKlangTypes.h"
+
+1314405313 /home/userr/ProyectosActuales/Gemas/include/irrKlang/ik_IVirtualRefCounted.h
+	"ik_irrKlangTypes.h"
+
+1314405313 /home/userr/ProyectosActuales/Gemas/include/irrKlang/ik_ESoundOutputDrivers.h
+
+1314405313 /home/userr/ProyectosActuales/Gemas/include/irrKlang/ik_ESoundEngineOptions.h
+
+1314405313 /home/userr/ProyectosActuales/Gemas/include/irrKlang/ik_EStreamModes.h
+
+1314405313 /home/userr/ProyectosActuales/Gemas/include/irrKlang/ik_SAudioStreamFormat.h
+	"ik_IRefCounted.h"
+
+1314405313 /home/userr/ProyectosActuales/Gemas/include/irrKlang/ik_ISoundEngine.h
+	"ik_IRefCounted.h"
+	"ik_vec3d.h"
+	"ik_ISoundSource.h"
+	"ik_ISound.h"
+	"ik_EStreamModes.h"
+	"ik_IFileFactory.h"
+	"ik_ISoundMixedOutputReceiver.h"
+
+1314405313 /home/userr/ProyectosActuales/Gemas/include/irrKlang/ik_ISoundSource.h
+	"ik_IVirtualRefCounted.h"
+	"ik_vec3d.h"
+	"ik_EStreamModes.h"
+	"ik_SAudioStreamFormat.h"
+
+1314405313 /home/userr/ProyectosActuales/Gemas/include/irrKlang/ik_ISound.h
+	"ik_IVirtualRefCounted.h"
+	"ik_ISoundEffectControl.h"
+	"ik_vec3d.h"
+
+1314405313 /home/userr/ProyectosActuales/Gemas/include/irrKlang/ik_ISoundEffectControl.h
+	"ik_IVirtualRefCounted.h"
+	"ik_vec3d.h"
+
+1314405313 /home/userr/ProyectosActuales/Gemas/include/irrKlang/ik_IFileFactory.h
+	"ik_IRefCounted.h"
+
+1314405313 /home/userr/ProyectosActuales/Gemas/include/irrKlang/ik_ISoundMixedOutputReceiver.h
+	"ik_IRefCounted.h"
+	"ik_SAudioStreamFormat.h"
+
+1314405313 /home/userr/ProyectosActuales/Gemas/include/irrKlang/ik_IAudioStream.h
+	"ik_IRefCounted.h"
+	"ik_SAudioStreamFormat.h"
+
+1314405313 /home/userr/ProyectosActuales/Gemas/include/irrKlang/ik_IAudioStreamLoader.h
+	"ik_IRefCounted.h"
+	"ik_IFileReader.h"
+
+1314405313 /home/userr/ProyectosActuales/Gemas/include/irrKlang/ik_IFileReader.h
+	"ik_IRefCounted.h"
+
+1314405313 /home/userr/ProyectosActuales/Gemas/include/irrKlang/ik_ISoundStopEventReceiver.h
+	"ik_IRefCounted.h"
+	"ik_SAudioStreamFormat.h"
+
+1314405313 /home/userr/ProyectosActuales/Gemas/include/irrKlang/ik_ISoundDeviceList.h
+	"ik_IRefCounted.h"
+
+1314405313 /home/userr/ProyectosActuales/Gemas/include/irrKlang/ik_IAudioRecorder.h
+	"ik_IRefCounted.h"
+	"ik_ISoundSource.h"
+
+1321553345 source:/home/userr/ProyectosActuales/Gemas/src/Menu.cpp
+	"../include/Menu.h"
+
+1321553227 /home/userr/ProyectosActuales/Gemas/include/Menu.h
+	"../include/Grafico.h"
+	"../include/Sonido.h"
+	"../include/irrKlang/irrKlang.h"
+	"../TinyXml/tinyxml.h"
+
+1305426297 source:/home/userr/ProyectosActuales/Gemas/TinyXml/tinystr.cpp
+	"tinystr.h"
+
+1305426297 source:/home/userr/ProyectosActuales/Gemas/TinyXml/tinyxml.cpp
+	<ctype.h>
+	<sstream>
+	<iostream>
+	"tinyxml.h"
+
+1305426297 source:/home/userr/ProyectosActuales/Gemas/TinyXml/tinyxmlerror.cpp
+	"tinyxml.h"
+
+1305426297 source:/home/userr/ProyectosActuales/Gemas/TinyXml/tinyxmlparser.cpp
+	<ctype.h>
+	<stddef.h>
+	"tinyxml.h"
+	<windows.h>
+

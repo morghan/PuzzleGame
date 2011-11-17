@@ -1,0 +1,52 @@
+<Image x="0" y="0" height="1024" width="600" visible="true" path="fondo.png" />
+<Text x="200" y="100" height="100" width="100" visible="true" text="L. GPL" alpha="255" red="255" green="255" blue="255" />
+<Text x="0" y="20" height="100" width="100" visible="true" text="V. 1.0" alpha="255" red="255" green="255" blue="255" />
+<Image x="300" y="0" height="400" width="283" visible="true" path="logo.png" />
+
+<Container x="400" y="270" height="500" width="500" visible="true" seleccionado="true">
+	<Button x="0" y="0" height="150" width="50" visible="true" 
+	path="fondo_boton.png" text_x="5" text_y="5" text="Iniciar" alpha="255" red="255" green="255" blue="255" 		path_selected="fondo_boton2.png" text_x_selected="5" text_y_selected="5" text_selected="Iniciar" alpha_selected="255" red_selected="255" green_selected="255" blue_selected="255" 
+	action_id="0"/>
+
+	<List x="0" y="20" height="50" width="50" visible="true"
+	arrow_left_x="-50" arrow_left_y="0" path_left="flecha_izq.png"
+	arrow_right_x="150" arrow_right_y="0" path_right="flecha_der.png"
+	arrow_left_x_selected="-50" arrow_left_y_selected="0" path_left_selected="flecha_izq2.png"
+	arrow_right_x_selected="150" arrow_right_y_selected="0" path_right_selected="flecha_der2.png">
+		<Text x="0" y="20" height="50" width="50" visible="true" text="Tu" alpha="255" red="255" green="255" blue="255" />
+		<Text x="0" y="20" height="50" width="50" visible="true" text="ru" alpha="255" red="255" green="255" blue="255" />
+		<Text x="0" y="20" height="50" width="50" visible="true" text="pawn" alpha="255" red="255" green="255" blue="255" />
+	</List>
+
+	<List x="0" y="60" height="50" width="50" visible="true"
+	arrow_left_x="-50" arrow_left_y="0" path_left="flecha_izq.png"
+	arrow_right_x="150" arrow_right_y="0" path_right="flecha_der.png"
+	arrow_left_x_selected="-50" arrow_left_y_selected="0" path_left_selected="flecha_izq2.png"
+	arrow_right_x_selected="150" arrow_right_y_selected="0" path_right_selected="flecha_der2.png">
+		<Text x="0" y="20" height="50" width="50" visible="true" text="Chuy" alpha="255" red="255" green="255" blue="255" />
+		<Text x="0" y="20" height="50" width="50" visible="true" text="x" alpha="255" red="255" green="255" blue="255" />
+		<Text x="0" y="20" height="50" width="50" visible="true" text="100" alpha="255" red="255" green="255" blue="255" />
+		<Text x="0" y="20" height="50" width="50" visible="true" text="pre" alpha="255" red="255" green="255" blue="255" />
+	</List>
+
+	<List x="0" y="100" height="50" width="50" visible="true"
+	arrow_left_x="-50" arrow_left_y="0" path_left="flecha_izq.png"
+	arrow_right_x="150" arrow_right_y="0" path_right="flecha_der.png"
+	arrow_left_x_selected="-50" arrow_left_y_selected="0" path_left_selected="flecha_izq2.png"
+	arrow_right_x_selected="150" arrow_right_y_selected="0" path_right_selected="flecha_der2.png">
+		<Text x="0" y="20" height="50" width="50" visible="true" text="Mi mama" alpha="255" red="255" green="255" blue="255" />
+		<Text x="0" y="20" height="50" width="50" visible="true" text="murio" alpha="255" red="255" green="255" blue="255" />
+		<Text x="0" y="20" height="50" width="50" visible="true" text="x tu" alpha="255" red="255" green="255" blue="255" />
+		<Text x="0" y="20" height="50" width="50" visible="true" text="culpa" alpha="255" red="255" green="255" blue="255" />
+	</List>
+
+	<Bar x="0" y="160" height="200" width="50" visible="true"
+	path_bg="fondo_boton.png" bar_x="0" bar_y="0" path="barra.png"
+	path_bg_selected="fondo_boton2.png" bar_x_selected="0" bar_y_selected="0" path_selected="barra.png"
+	max="5" default_value="3" />
+
+	<Button x="0" y="205" height="150" width="50" visible="true" 
+	path="fondo_boton.png" text_x="5" text_y="5" text="Salir" alpha="255" red="255" green="255" blue="255" 		path_selected="fondo_boton2.png" text_x_selected="5" text_y_selected="5" text_selected="Salir" alpha_selected="255" red_selected="255" green_selected="255" blue_selected="255" 
+	action_id="1"/>
+
+</Container>
