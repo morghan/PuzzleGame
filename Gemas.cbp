@@ -32,6 +32,9 @@
 			<Add option="-Wall" />
 			<Add option="-fexceptions" />
 		</Compiler>
+		<Linker>
+			<Add library="/home/morghan/Documents/codeblocks/irrKlang-1.3.0/irrKlang-1.3.0/lib/Win32-gcc/libirrKlang.a" />
+		</Linker>
 		<Unit filename="TinyXml/tinystr.cpp" />
 		<Unit filename="TinyXml/tinystr.h" />
 		<Unit filename="TinyXml/tinyxml.cpp" />

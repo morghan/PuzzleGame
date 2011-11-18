@@ -7,7 +7,7 @@
 #include <stdarg.h>
 using namespace std;
 
-#include <irrlicht/irrlicht.h>
+#include <irrlicht.h>
 #include "../TinyXml/tinyxml.h"
 
 using namespace irr;

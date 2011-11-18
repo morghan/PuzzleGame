@@ -11,6 +11,9 @@ void probaEstaFuncionAntesJerzon()
     //Grafico: dibuja en la ventanita
     Grafico *grafico=new Grafico(receiver);
 
+    Menu *menu=new Menu(grafico,receiver);//Inicializacion:
+    menu->loopMenu();//Loop de dibujo de menu
+
     //Practica: Ver como dibuja "grafico" y como recibe inputs "recevier"
     for(;;)//Paja
     {
@@ -23,7 +26,7 @@ void probaEstaFuncionAntesJerzon()
         {//Paja
             grafico->beginScene();//Paja
 
-            if(receiver->IsKeyDown(irr::KEY_RETURN))//  <--- Aqui uso receiver!!!!!!!
+            if(receiver->IsKeyDown(irr::KEY_ESCAPE))//  <--- Aqui uso receiver!!!!!!!
                 break;
 
             grafico->draw2DImage                   //  <--- Aqui uso grafico!!!!!!!
@@ -32,12 +35,23 @@ void probaEstaFuncionAntesJerzon()
                 irr::core::rect<irr::f32>(0,0,100,200), //Rectangulo de recorte de imagen
                 irr::core::position2d<irr::f32>(0,0), //Posicion x y en la pantalla
                 irr::core::position2d<irr::f32>(0,0), //Centro de rotacion de la imagen
-                irr::f32(0), irr::core::vector2df (1,2), //escala x y
+                irr::f32(0), irr::core::vector2df (1,1), //escala x y
                 true,// Acepta canal alpha
                 irr::video::SColor(255,255,255,255),//Color de.. ehh no se d q :s
-                true,//Flip horizontal
-                true);//Flip vertical
+                false,//Flip horizontal
+                false);//Flip vertical
 
+            grafico->draw2DImage                   //  <--- Aqui uso grafico!!!!!!!
+            (   grafico->getTexture("kawaii.png"),
+                irr::core::dimension2d<irr::f32> (38,200), //tamaño de la imagen
+                irr::core::rect<irr::f32>(0,0,38,200), //Rectangulo de recorte de imagen
+                irr::core::position2d<irr::f32>(0,200), //Posicion x y en la pantalla
+                irr::core::position2d<irr::f32>(0,0), //Centro de rotacion de la imagen
+                irr::f32(0), irr::core::vector2df (1,1), //escala x y
+                true,// Acepta canal alpha
+                irr::video::SColor(255,255,255,255),//Color de.. ehh no se d q :s
+                false,//Flip horizontal
+                false);//Flip vertical
 
             grafico->endScene();//Paja
         }
@@ -64,7 +78,7 @@ int main()
     //Level 1: Obedece a la morsa
     //Inicio: Hacele caso al cout
     cout<<"Descomenta la funcion de abajo (\"probaEstaFuncionAntesJerzon\")"<<endl;
-    //probaEstaFuncionAntesJerzon();
+    probaEstaFuncionAntesJerzon();
 
     //Level 4: Ready to roll sir
     //Borra todo esto y hace tus clases :D

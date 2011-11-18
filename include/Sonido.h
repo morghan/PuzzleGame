@@ -1,8 +1,8 @@
-#include "../include/irrKlang/irrKlang.h"
+#include <irrKlang.h>
 //using namespace System;
 //using namespace System.IO;
 using namespace irrklang;
-#include <irrlicht/irrlicht.h>
+#include <irrlicht.h>
 using namespace irr;
 #include <string>
 #include <vector>
@@ -20,7 +20,7 @@ public:
 
 class Sonido
 {
-    ISoundEngine *engine;
+    ISoundEngine* engine;
     irr::core::map<std::string,Reproduccion*> sonidos;
 public:
     Sonido();

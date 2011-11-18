@@ -2,7 +2,7 @@
 
 Sonido::Sonido()
 {
-    engine=createIrrKlangDevice();
+//    engine=createIrrKlangDevice();
 }
 void Sonido::drop()
 {
